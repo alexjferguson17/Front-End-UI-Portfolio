@@ -1,0 +1,27 @@
+* {
+  font-family: 'Open Sans', sans-serif; }
+
+.hero h1 {
+  text-align: center;
+  letter-spacing: 34px;
+  font-size: 64px;
+  font-weight: 600;
+  color: white;
+  padding-top: 115px; }
+
+.hero-background {
+  background-color: #274C5E; }
+
+.hero-info {
+  color: white;
+  font-weight: 300;
+  font-size: 32px;
+  letter-spacing: 1.3px;
+  text-align: center;
+  padding-top: 245px;
+  padding-bottom: 245px; }
+
+.avatar {
+  margin: 0 auto;
+  display: block;
+  padding-top: 60px; }
