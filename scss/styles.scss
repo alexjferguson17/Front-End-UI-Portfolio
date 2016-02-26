@@ -1,6 +1,15 @@
+/* GLOBAL STYLES */
+
 * {
 	font-family: 'Open Sans', sans-serif;
 }
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* HERO STYLES */
 
 .hero h1 {
 	text-align: center;
@@ -26,10 +35,15 @@
 }
 
 .avatar {
-	margin: 0 auto;
-	display: block;
 	padding-top: 60px;
 }
+
+.hero-info {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/* ABOUT STYLES */
 
 .about-container {
 	max-width: 70%;
@@ -42,6 +56,8 @@
 	color: #77919D;
 	padding-bottom: 320px;
 }
+
+/* SERVICES STYLES */
 
 .services-icons {
 	display: block;
@@ -67,10 +83,128 @@
 	padding-bottom: 350px;
 }
 
+/* PROJECTS STYLES */
+
 .afExotics-container {
 	background-color: #F5F5F5;
 }
 
+.paycrave-container {
+	background-color: #F5F5F5;
+}
+
 .afExotics-mock {
-	padding: 112px 65px;
+	padding: 112px 55px;
+}
+
+button {
+		/* Rectangle 16: */
+	border: 2px solid #DF405A;
+	border-radius: 80px;
+	background-color: transparent;
+	width: 259px;
+	height: 70px;
+	font-size: 32px;
+	color: #DF405A;
+}
+
+.projects-name-left {
+	font-size: 48px;
+	color: #274C5E;
+}
+
+.projects-info-left {
+	font-size: 32px;
+	font-weight: 300;
+	color: #77919D;
+	margin-bottom: 25px;
+}
+
+.project-mini-info {
+  padding-top: 390px;
+  padding-right: 55px;
+}
+
+.netflix-mock {
+	padding-top: 160px;
+	padding-left: 140px;
+	padding-bottom: 160px;
+}
+
+
+.project-mini-info-right {
+	padding-left: 90px;
+	padding-top: 280px;
+}
+
+.paycrave-mock {
+	padding: 123px 55px;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-device-width: 375px) {
+	.hero h1 {
+		letter-spacing: 2px;
+		margin-bottom: 35px;
+	}
+
+	.hero-info{
+		padding: 20px 0 0 0;
+	}
+
+	.avatar {
+		padding-top: 35px;
+	}
+
+	.about-container {
+		letter-spacing: 1px;
+		font-size: 20px;
+		max-width: 100%;
+		padding-bottom: 100px;
+		padding-top: 100px;
+	}
+
+	.services-text {
+		padding-bottom: 100px;
+	}
+
+	.project-mini-info {
+		padding-top: 5px;
+		padding-right: 0;
+	}
+
+	.project-mini-info-right {
+		padding-top: 5px;
+		padding-right: 0;
+		padding-left: 0;
+		margin-top: 55px;
+	}
+
+
+	.projects-name-left {
+		text-align: center;
+		font-size: 38px;
+	}
+
+	.projects-info-left {
+		text-align: center;
+		font-size: 22px;
+	}
+
+	.afExotics-mock {
+		padding: 0 0 55px 0;
+	}
+
+	.netflix-mock {
+		padding: 55px 0 0 0;
+	}
+
+	button {
+		width: 210px;
+		height: 65px;
+		font-size: 28px;
+		display: block;
+		margin: 0 auto;
+	}
 }
