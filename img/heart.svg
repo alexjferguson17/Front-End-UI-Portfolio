@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="33px" viewBox="0 0 35 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>favorite-heart-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Portfolio" sketch:type="MSArtboardGroup" transform="translate(-202.000000, -6985.000000)" fill="#D80027">
+            <g id="Footer" sketch:type="MSLayerGroup" transform="translate(0.000000, 6938.000000)">
+                <g id="Footer-Location" transform="translate(50.000000, 44.000000)" sketch:type="MSShapeGroup">
+                    <g id="favorite-heart-button" transform="translate(152.000000, 3.000000)">
+                        <g id="favorite">
+                            <path d="M17.5,32.1725957 L15.05,29.726766 C5.95,21.6904681 0,16.2747021 0,9.63602128 C0,4.22025532 4.2,0.0274042553 9.625,0.0274042553 C12.6,0.0274042553 15.575,1.42502128 17.5,3.69614894 C19.425,1.42502128 22.4,0.0274042553 25.375,0.0274042553 C30.8,0.0274042553 35,4.22025532 35,9.63602128 C35,16.2747021 29.05,21.6904681 19.95,29.726766 L17.5,32.1725957 L17.5,32.1725957 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

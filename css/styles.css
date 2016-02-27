@@ -114,14 +114,78 @@ button {
 .paycrave-mock {
   padding: 123px 55px; }
 
+/* CONTACT STYLES */
+#form-head {
+  text-align: center;
+  font-size: 72px;
+  letter-spacing: 20px;
+  font-weight: 600;
+  color: #274C5E;
+  padding-top: 320px;
+  text-transform: uppercase; }
+
+.form-text {
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: #77919D; }
+
+#form-name,
+#form-message,
+#form-email {
+  display: block;
+  margin: 60px auto;
+  border: 0;
+  border-bottom: 2px solid #77919D;
+  width: 45%;
+  font-size: 22px;
+  outline: none; }
+
+#form-button {
+  display: block;
+  margin: 30px auto; }
+
+form {
+  padding-top: 100px;
+  padding-bottom: 190px; }
+
+.social-twitter {
+  margin: 0 auto; }
+
+/* FOOTER STYLES */
+footer {
+  margin-top: 190px;
+  background-color: #274C5E;
+  padding-top: 36px;
+  padding-bottom: 36px; }
+
+.text-location {
+  display: inline;
+  font-size: 22px;
+  color: white; }
+
+.img-location {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.copyright-info {
+  color: white;
+  font-size: 22px;
+  float: right;
+  font-weight: 300; }
+
 /* MEDIA QUERIES */
-@media (max-width: 480px) {
+@media (max-width: 420px) {
   .hero h1 {
     letter-spacing: 2px;
-    margin-bottom: 35px; }
+    margin-bottom: 35px;
+    font-size: 28px;
+    margin-top: -70px; }
 
   .hero-info {
-    padding: 20px 0 0 0; }
+    padding: 20px 0 0 0;
+    font-size: 20px; }
 
   .avatar {
     padding-top: 35px; }
@@ -165,7 +229,49 @@ button {
     height: 65px;
     font-size: 28px;
     display: block;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  #form-head {
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding-top: 100px; }
+
+  #form-name,
+  #form-email,
+  #form-message {
+    width: 100%; }
+
+  form {
+    padding-top: 50px; }
+
+  .form-text {
+    font-size: 24px; }
+
+  .social-twitter {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+  .social-instagram {
+    margin: 0 auto;
+    display: block; }
+
+  .social-facebook {
+    display: block;
+    margin: 0 auto; }
+
+  .text-location {
+    font-size: 13px;
+    text-align: center; }
+
+  .copyright-info {
+    font-size: 13px;
+    text-align: center;
+    padding-right: 70px;
+    margin-top: 10px; }
+
+  .img-location {
+    height: 20px;
+    width: 20px; } }
 @media (min-width: 768px) and (max-width: 960px) {
   .avatar {
     margin: 0 auto;
