@@ -62,6 +62,7 @@
 .services-icons {
 	display: block;
 	margin: 0 auto;
+	height: 119px;
 }
 
 .services-title {
@@ -184,12 +185,16 @@ form {
 	padding-bottom: 190px;
 }
 
-.social-twitter {
+.social-twitter, 
+.social-instagram,
+.social-facebook
+ {
 	margin: 0 auto;
 }
 
-.social-facebook {
-	//float: right;
+.social-container {
+	width: 30%;
+	margin: 0 auto;
 }
 
 /* FOOTER STYLES */
@@ -202,7 +207,6 @@ footer {
 }
 
 .text-location {
-	display: inline;
 	font-size: 22px;
 	color: white;
 }
@@ -215,7 +219,8 @@ footer {
 .copyright-info {
 	color: white;
 	font-size: 22px;
-	float: right;
+	padding-right: 70px;
+	text-align: right;
 	font-weight: 300;
 }
 
@@ -332,7 +337,7 @@ footer {
 	.copyright-info {
 		font-size: 13px;
 		text-align: center;
-		padding-right: 70px;
+		padding: 0;
 		margin-top: 10px;
 	}
 
